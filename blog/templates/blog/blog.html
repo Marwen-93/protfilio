@@ -1,0 +1,125 @@
+{% extends 'main.html' %}
+{% block contient %}
+
+    {% load static %} 
+
+
+<section class="section about-me" data-section="section1">
+    <div class="container">
+      <div class="section-heading">
+        <h2>About Me</h2>
+        <div class="line-dec"></div>
+        <span
+          >Python developer  extremely motivated to constantly develop my skills and to grow professionally.
+          I am confident in my ability to find interesting ideas to improve the performance of the company</p>
+          
+      </div>
+      <div class="left-image-post">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-image">
+              <img src="assets/images/left-image.jpg" alt="" />
+            </div>
+          </div>
+          <ul class="slides">
+            <input type="radio" name="radio-btn" id="img-1" checked />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="{% static 'images/20171001_105738.jpg' %}" />
+                </div>
+                <div class="nav">
+                    <label for="img-6" class="prev">&#x2039;</label>
+                    <label for="img-2" class="next">&#x203a;</label>
+                </div>
+            </li>
+        
+            <input type="radio" name="radio-btn" id="img-2" />
+            <li class="slide-container">
+                <div class="slide">
+                  <img src="{% static 'images/20171111_160117.jpg' %}" />
+                </div>
+                <div class="nav">
+                    <label for="img-1" class="prev">&#x2039;</label>
+                    <label for="img-3" class="next">&#x203a;</label>
+                </div>
+            </li>
+        
+            <input type="radio" name="radio-btn" id="img-3" />
+            <li class="slide-container">
+                <div class="slide">
+                  <img src="{% static 'images/20171112_123619.jpg' %}"/>
+                </div>
+                <div class="nav">
+                    <label for="img-2" class="prev">&#x2039;</label>
+                    <label for="img-4" class="next">&#x203a;</label>
+                </div>
+            </li>
+        
+            <input type="radio" name="radio-btn" id="img-4" />
+            <li class="slide-container">
+                <div class="slide">
+                  <img src="{% static 'images/20171112_124426.jpg' %}" />
+                </div>
+                <div class="nav">
+                    <label for="img-3" class="prev">&#x2039;</label>
+                    <label for="img-5" class="next">&#x203a;</label>
+                </div>
+            </li>
+        
+            <input type="radio" name="radio-btn" id="img-5" />
+            <li class="slide-container">
+                <div class="slide">
+                  <img src="{% static 'images/20171202_165811.jpg' %}" />
+                </div>
+                <div class="nav">
+                    <label for="img-4" class="prev">&#x2039;</label>
+                    <label for="img-6" class="next">&#x203a;</label>
+                </div>
+            </li>
+        
+            <input type="radio" name="radio-btn" id="img-6" />
+            <li class="slide-container">
+                <div class="slide">
+                  <img src="{% static 'images/20180722_131000.jpg' %}" />
+                </div>
+                <div class="nav">
+                    <label for="img-5" class="prev">&#x2039;</label>
+                    <label for="img-1" class="next">&#x203a;</label>
+                </div>
+            </li>
+            <input type="radio" name="radio-btn" id="img-7" />
+            <li class="slide-container">
+                <div class="slide">
+                  <img src="{% static 'images/20180729_045219.jpg' %}" />
+                </div>
+                <div class="nav">
+                    <label for="img-5" class="prev">&#x2039;</label>
+                    <label for="img-1" class="next">&#x203a;</label>
+                </div>
+            </li>
+            <input type="radio" name="radio-btn" id="img-7" />
+            <li class="slide-container">
+                <div class="slide">
+                  <img src="{% static 'images/IMG_20181028_134914.jpg' %}" />
+                </div>
+                <div class="nav">
+                    <label for="img-5" class="prev">&#x2039;</label>
+                    <label for="img-1" class="next">&#x203a;</label>
+                </div>
+            </li>
+            
+        
+            <li class="nav-dots">
+              <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+              <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+              <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+              <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+              <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+              <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+              <label for="img-7" class="nav-dot" id="img-dot-7"></label>
+
+            </li>
+        </ul>
+  </section>
+
+{% endblock contient %}

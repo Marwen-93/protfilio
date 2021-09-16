@@ -1,0 +1,31 @@
+{% include 'navbar.html' %} 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marwen</title>
+    {% load static %} 
+    <link rel="stylesheet" type="text/css" href="{% static 'static/style.css' %}">
+</head>
+<body>
+    {% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    {% endblock %}
+</head>
+<META HTTP-EQUIV=”refresh” CONTENT=”15″>
+<body>
+
+    {% block contient %}
+
+ 
+           
+
+    {% endblock contient %}
+
+</body>
+</html>
